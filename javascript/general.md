@@ -71,3 +71,4 @@ function mymethod(){
 
 mymethod();
 ```
+**Best practice**: Always declare variables first

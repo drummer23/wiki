@@ -34,7 +34,7 @@ A function can be defined without naming it
 
 ```js
 var fn = function() {};
-````
+```
 
 ##IIFE
 
@@ -49,3 +49,21 @@ https://de.m.wikipedia.org/wiki/Closure_(Funktion)
 console.log(typeof privateVar); // => undefined
 ```
 
+## Callbacks
+
+Functions can be passed to ohter functions as parameters. The passed function is not executed directly but when the other function **calls(-back)** it
+
+```js
+
+console.log(typeof console.log); // => function
+
+function someFunction(fn, x) {
+	//does something...
+
+    //callback
+    fn(x);
+}
+
+someFunction(console.log, 'hello');
+
+```
