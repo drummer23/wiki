@@ -34,4 +34,18 @@ A function can be defined without naming it
 
 ```js
 var fn = function() {};
-``
+````
+
+##IIFE
+
+IFFE is a pattern for encapslulation using function scope
+https://de.m.wikipedia.org/wiki/Closure_(Funktion)
+
+```js
+(function() {
+	var privateVar = 'private';
+    console.log(typeof privateVar); // => string
+})();
+console.log(typeof privateVar); // => undefined
+```
+

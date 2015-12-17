@@ -4,7 +4,7 @@ JavaScript is CaseSensitive.
 
 Comments:
 ```js
-// comment 
+// comment
 /* comment */
 ```
 
@@ -19,18 +19,6 @@ Javascript has 2 scopes:
 
 ```js
 ‘use strict’;
-```
-
-##Variables
-
-- are typeless.
-- type conversion works implicit likewise in php
-- are either global or scoped to function
-- variables are function scoped, instead of block scoped compared to other languages
-
-Use `var` for declaration (with value undefined) :
-```js
-var someVariable;
 ```
 
 ## The Global Object
@@ -50,4 +38,36 @@ An Expression is simply an statement, which the Interpreter can evaluate to an v
 
 ```js
 "hello", 1,23, i
+```
+
+##Variables
+
+- are typeless.
+- type conversion works implicit likewise in php
+- are either global or scoped to function
+- variables are function scoped, instead of block scoped compared to other languages
+
+Use `var` for declaration (with value undefined) :
+```js
+var someVariable;
+```
+
+### Hoisting
+
+https://www.kenneth-truyers.net/2013/04/20/javascript-hoisting-explained/
+
+In Javascript, you can have multiple var-statements in a function. All of these statements act as if they were declared at the top of the function. Hoisting is the act of moving the declarations to the top of the function.
+
+In this example, the declaration of myvar inside the function is hoisted to the top of the function. Meaning `var myvar`is executed first and therefore has value undefined at the first alert.
+
+```js
+var myvar = "global variable";
+
+function mymethod(){
+    alert(myvar);   // expected "global variable", result: undefined
+    var myvar = "local variable";
+    alert(myvar); // local variable
+}
+
+mymethod();
 ```
