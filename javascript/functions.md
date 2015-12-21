@@ -67,3 +67,4 @@ function someFunction(fn, x) {
 someFunction(console.log, 'hello');
 
 ```
+see chapter [async](async.md) for more about callbacks
