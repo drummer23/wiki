@@ -51,7 +51,7 @@ console.log(typeof privateVar); // => undefined
 
 ## Callbacks
 
-Functions can be passed to ohter functions as parameters. The passed function is not executed directly but when the other function **calls(-back)** it
+A callback function is a function passed as a parameter to another function. The passed function is not executed directly but when the other function **calls(-back)** it
 
 ```js
 
@@ -67,3 +67,4 @@ function someFunction(fn, x) {
 someFunction(console.log, 'hello');
 
 ```
+see chapter [async](async.md) for more about callbacks
