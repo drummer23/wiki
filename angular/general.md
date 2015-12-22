@@ -14,10 +14,12 @@ better to use a library with a lower level of abstraction, such as jQuery.
 
 Angular frees you from the following pains:
 
-- 	Registering callbacks
-- 	Manipulating HTML DOM programmatically
+- 	**Registering callbacks**
+
+- 	**Manipulating HTML DOM programmatically**
 	By declaratively describing how the UI should change as your application state changes, you are freed from low-level DOM manipulation tasks
-- 	Marshaling data to and from the UI
+
+- 	**Marshaling data to and from the UI**
 
 ##Dependency Injection
 
