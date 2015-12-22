@@ -25,4 +25,7 @@ Angular frees you from the following pains:
 
 Within Angular, the DI container is called the **injector**.
 To use DI, there needs to be a place where all the things that should work together are
-registered. In Angular, this is the purpose of the modules
+registered. In Angular, this is the purpose of the modules.
+
+When Angular starts, it will use the configuration of the module with the name defined by the ng-app directive, including the configuration of all modules that this module depends on.
+https://docs.angularjs.org/guide/concepts
