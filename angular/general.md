@@ -21,6 +21,9 @@ Angular frees you from the following pains:
 
 - 	**Marshaling data to and from the UI**
 
+##Data Binding
+Data-binding in Angular apps is the automatic synchronization of data between the model and view components. **The view is a projection of the model at all times**. When the model changes, the view reflects the change, and vice versa.
+
 ##Dependency Injection
 
 Within Angular, the DI container is called the **injector**.
