@@ -1,5 +1,27 @@
 #Types
 
+In JavaScript everything is a primitive value (aka scalar) or an object.
+
+```js
+var undVar;
+console.log(typeof undVar); //-> undefined
+
+var bolVar = true;
+console.log(typeof bolVar); // -> boolean
+
+var numVar = 7;
+console.log(typeof numVar); // -> number
+
+var strVar = 'hello';
+console.log(typeof strVar); // -> string
+
+var arrVar = ['a','b','c'];
+console.log(typeof arrVar); // -> object
+
+var objVar = {a : 'a', b: 'b'};
+console.log(typeof objVar); // -> object
+```
+
 ##Scalar Types
 
 - Strings
@@ -11,6 +33,12 @@
 - Bools
 - Undefined/Null
  - not initialised variables or non-existent properties return undefined (aka typeof undefined)
+
+##Objects
+
+[Chapter Objects](objects.md)
+
+##Typeof
 
 Use `typeof` to check for type
 
