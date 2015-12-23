@@ -4,9 +4,8 @@
 
 1. [General](general.md)
 2. [Types](types.md)
-3. [Arrays & Objects](arraysobjects.md)
+3. [Arrays & Objects](objects.md)
 4. [Functions](functions.md)
 5. [Async](async.md)
 6. [Promises](promises.md)
-7. [Prototypes](prototypes.md)
-8. [Debugging](debugging.md)
+7. [Debugging](debugging.md)
