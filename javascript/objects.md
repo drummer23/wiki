@@ -64,6 +64,7 @@ Use `getPrototypeOf` to access the Prototype. In this example we have to use `Ob
 ```js
 Object.getPrototypeOf(apple)
 ```
+*There is a difference between the property `prototype` and `__proto__`. The property can be set to anything whereas the later is fail safe (draft - evaluate this)*
 
 ##Inheritance
 
@@ -71,8 +72,12 @@ https://github.com/MarcDiethelm/fe-lectures/blob/master/3-js-advanced/2-prototyp
 
 If you try to look up a key on an object and it is not found, JavaScript will look for it in the prototype. And if not found there it will look in the prototypes prototype and so on. It will follow the **“prototype chain”** until the prototype is null instead of an object. In that case, it returns undefined.
 
-A property on a Child will have its Parents value until explicit set on the Child.
-
-
+**A property on a Child will have its Parents value until explicit set on the Child. A property set on a child will not be set on its Parent**
 
 Use `hasOwnProperty` to check if property is defined on this very Object
+
+##Constructor
+
+todo
+
+
