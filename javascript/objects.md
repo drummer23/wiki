@@ -38,9 +38,9 @@ car[“brand"];
 
 ##Prototypes
 
-Every JavaScript object also has a special additional attribute: a pointer to another object. This is called the object’s prototype. **If you create an objects, JavaScript automaticly adds a prototype to it.**
+Every JavaScript object also has a special additional attribute: a pointer to another object. This is called the object’s prototype. If you create an object using **literals**, JavaScript automaticly adds `Object` as prototype to it.
 
-New Objects automaticly inherit from Object. Therefore all the the objects have properties [we never assigned to them](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype#Properties).
+New objects automaticly inherit from `Object`. Therefore all the the objects have properties [we never assigned to them](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype#Properties).
 
 ```js
 // primitive
@@ -60,10 +60,19 @@ var fruit = Object.create(null);
 var apple = Object.create(fruit);
 ```
 
+Use `getPrototypeOf` to access the Prototype. In this example we have to use `Object.getPropertyOf` because `fruit` haven't been created from `Object`
+```js
+Object.getPrototypeOf(apple)
+```
+
 ##Inheritance
 
 https://github.com/MarcDiethelm/fe-lectures/blob/master/3-js-advanced/2-prototype.md
 
-If you try to look up a key on an object and it is not found, JavaScript will look for it in the prototype. 
+If you try to look up a key on an object and it is not found, JavaScript will look for it in the prototype. And if not found there it will look in the prototypes prototype and so on. It will follow the **“prototype chain”** until the prototype is null instead of an object. In that case, it returns undefined.
+
+A property on a Child will have its Parents value until explicit set on the Child.
 
 
+
+Use `hasOwnProperty` to check if property is defined on this very Object
