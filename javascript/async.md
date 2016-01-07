@@ -23,7 +23,7 @@ $('button').on('click', function(ev) {
 });
 ```
 
-Here's Node.js again.
+Here's another example of Node.js:
 
 ```js
 // 2-examples-node/01-server-1b.js
