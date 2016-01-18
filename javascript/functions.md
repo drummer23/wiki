@@ -39,7 +39,11 @@ var fn = function() {};
 ##IIFE
 
 IFFE is a pattern for encapslulation using function scope
-https://de.m.wikipedia.org/wiki/Closure_(Funktion)
+
+How it works:
+Code is encapsulated within an anonymous function, which is immediately called/invoked. The main benefit is that this Code stays out of the Global Scope
+
+In this example, the anonymous function is defined on the first line ```(function(){})```, and invoked on the second to last line ```();```. Therefore ```privateVar``` is not defined on the Global Scope.
 
 ```js
 (function() {
@@ -48,6 +52,18 @@ https://de.m.wikipedia.org/wiki/Closure_(Funktion)
 })();
 console.log(typeof privateVar); // => undefined
 ```
+
+**Another benefit is that you can assure aliases**. For example as alot of frameworks uses ```$``` as an alias, this construct assures its an alias for jQuery inside the IIFE
+
+```js
+(function($) {
+	//...
+})(jQuery);
+```
+
+The IFEE Pattern is based on the Closure principe:
+https://de.m.wikipedia.org/wiki/Closure_(Funktion)
+
 
 ## Callbacks
 
