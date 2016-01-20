@@ -6,10 +6,10 @@ Rest doesn’t have to Serve JSON!
 
 **Levels of Restfull**
 
-Level 0 - No Rest
-Level 1 - Resources
-Level 2 - HTTP Verbs
-Level 3 - Hypermedia Controls
+- Level 0: No Rest
+- Level 1: Resources
+- Level 2: HTTP Verbs
+- Level 3: Hypermedia Controls
 
 make trade-offs: pure rest is most often not worth the effort
 
