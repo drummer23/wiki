@@ -4,6 +4,8 @@ based on this video:
 https://www.youtube.com/watch?v=aoAfW_zCnm0
 *timing information in braces (m:ss)
 
+use http://todomvc.com/examples/vanillajs/ as playground
+
 ##Elements Panel (5:00)
 
 - Select Element using **selector tool**
@@ -36,7 +38,13 @@ https://www.youtube.com/watch?v=aoAfW_zCnm0
 - If server from server teach chrome the **mapping** to served file from server
 
 
-##Continue with Live edit in JS (19:50)
+###Live edit in JS (19:50)
+
+- to find place to edit set **breakpoint on DOM** change
+- use **call stack** to navigate to the right function
+- edit script and save it to **reinject code into the vm** engine (even without using workspaces)
+
+##Continue with new Stuff (24:20)
 
 
 
