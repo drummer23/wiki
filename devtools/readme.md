@@ -21,7 +21,7 @@ use http://todomvc.com/examples/vanillajs/ as playground
 ###JS
 
 - Add **breakpoints to DOM** using context Menu of an Element, like break on subtree modification (9:00)
-- Check **Event Listeners Panel** on thins like Buttons (10:00)
+- Check **Event Listeners Panel** on things like Buttons (10:00)
 
 ##Network Panel (10:40)
 
@@ -35,7 +35,7 @@ use http://todomvc.com/examples/vanillajs/ as playground
 
 - Allows persisting changes to disk
 - To use it just *add folder to workspace*
-- If server from server teach chrome the **mapping** to served file from server
+- If from server teach chrome the **mapping** to served file from server
 
 
 ###Live edit in JS (19:50)
