@@ -15,8 +15,11 @@ they are just like arrays, but every value is named
 ```js
 var car = {
 	//key  : value
-	brand  : ‘audi’,
-    engine : ‘1.8’
+	brand  : 'audi',
+    engine : '1.8',
+    upgrade : function() {
+    	this.engine = '2.0';
+    }
 };
 
 car.wheels = 4; //add property after creation

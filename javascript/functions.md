@@ -26,6 +26,7 @@ fn(3); //returns 9
 
 var fn2 = function getFn() { return fn; }
 fn2()(3) // returns 9
+/* this function call needs two sets of parenthesis - first executes fn2, second       executes fn. without the parenthesis the functions would not be executed */
 ```
 
 ##Anonymous Functions
