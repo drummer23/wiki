@@ -19,6 +19,9 @@ most are binary (2 operands where operator sits in the middle)
 `==` `!=` `===` `!==`
 `>` `>=` `<` `<=`
 
+- **Equal** Operators `==` TRUE if equal after type juggling
+- **Identical** Operators `===`TRUE if equal and same type
+
 for type safe comparison use `===` and `!==`
 
 ```php
