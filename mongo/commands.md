@@ -20,6 +20,13 @@
 
 ##Insert
 
-`db.COLLECTION_NAME.insert({name: "aa"})
+`db.COLLECTION_NAME.insert({name: "aa"})`
+
+##Export/Import
+
+```
+mongoexport --host {hostname} --port {port} --db {dbname} --collection {collection} --out {filename}
+mongoimport --host {hostname} --port {port} --db {dbname} --collection {collection} --file {filename}
+```
 
 
