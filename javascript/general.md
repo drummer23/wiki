@@ -30,7 +30,7 @@ When the Script Interpreter starts (Web browser), it creates a Global Object
 - Global Objects like Math and JSON
 - Your own global Variables.
 
-use `window` or `this` if on top layer to access the global object.
+use `window` in the Browser or `global` in Node.js to access the global object. On the top layer you can also use `this`
 
 ## Expressions
 
