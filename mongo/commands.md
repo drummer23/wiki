@@ -22,6 +22,12 @@
 
 `db.COLLECTION_NAME.insert({name: "aa"})`
 
+##Delete
+
+`db.COLLECTION_NAME.remove(<query>)`
+To remove all documents in a collection, call the remove method with an empty query document {}
+
+
 ##Export/Import
 
 ```
