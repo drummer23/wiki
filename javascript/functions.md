@@ -10,7 +10,7 @@ function myFunc(a, b) {
 	return a + b;
 }
 
-myFunc(2,6); //returns 6
+myFunc(2,6); //returns 8
 ```
 
 
