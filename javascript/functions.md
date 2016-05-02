@@ -17,6 +17,8 @@ myFunc(2,6); //returns 8
 
 To check with which parameters a functions has been called, use `arguments` inside any function
 
+https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments
+
 ##Function Expression
 
 A function Expression defines a Java-Script Function, and the Value of that Expression is this function, which can be assigned to a variable and also returned by other functions.
