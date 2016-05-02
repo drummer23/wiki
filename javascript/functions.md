@@ -15,7 +15,7 @@ myFunc(2,6); //returns 8
 
 ##Function Parameters
 
-To check with which parameters a functions has been called, use 'arguments' inside any function
+To check with which parameters a functions has been called, use `arguments` inside any function
 
 ##Function Expression
 
