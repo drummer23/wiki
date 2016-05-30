@@ -28,6 +28,11 @@ Restore
 mysql [db_name] < dumpfilename.sql
 ```
 
+From another Server
+```sql
+ ssh [user]@[server] mysqldump [sourcedb] | mysql --database=[targetdb]
+```
+
 ##Select
 
 ```sql
