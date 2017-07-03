@@ -40,6 +40,10 @@ $ echo $MYVAR
 
 ## Access Control
 
+### Display diagram
+
+![](chmod.jpg)
+
 ### chmod numeric format
 
 ![](acl.png)
