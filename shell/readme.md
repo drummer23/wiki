@@ -1,11 +1,11 @@
-#Shell
+# Shell
 
-##Prompt
+## Prompt
 
 `$` for regular prompt
 `#` for Superuser
 
-##Help
+## Help
 
 Search manpages by Keyword
 ```bash
@@ -13,7 +13,7 @@ $ man -k keyword
 ```
 
 
-##Environment Variables
+## Environment Variables
 
 
 Show
@@ -38,9 +38,9 @@ $ echo $MYVAR
 ```
 
 
-##Access Control
+## Access Control
 
-###chmod numeric format
+### chmod numeric format
 
 ![](acl.png)
 
@@ -48,7 +48,7 @@ $ echo $MYVAR
 chmod 640 {filename}
 ```
 
-###chmod symbolic format
+### chmod symbolic format
 
 ```bash
 chmod u+x file.txt #adds execute for user
