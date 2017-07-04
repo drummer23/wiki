@@ -12,15 +12,24 @@ Search manpages by Keyword
 $ man -k keyword
 ```
 
+##Wildcards
+
+```bash
+$ ls dir/*conf  // null to many characters
+$ ls a?         // one character
+
+```
+
+
 
 ## Environment Variables
 
 
-Show
+List
 
 ```bash
-$ printenv
-$ printenv MYVAR
+$ printenv         //show all Variables
+$ printenv MYVAR   //show particular
 ```
 
 
@@ -28,14 +37,47 @@ Set
 
 ```bash
 $ MYVAR = 'SomeValue'
+// use export to make it accessible outside this shell
 ```
 
-Produce value of variable
+Produce
 
 ```bash
 $ echo $MYVAR
 
 ```
+
+##Path
+
+modify Path variable **temporary**. modify userprofile to change permanent
+```bash
+$ PATH=$PATH:/usr/sbin
+$ echo $PATH
+/usr/local/bin:/bin:/usr/bin:/home/smith/bin:/usr/sbin”
+```
+
+##Alias
+
+define temporary alias
+```bash
+$ alias ll='ls -l'
+$ ll
+
+//list aliases
+$ alias
+```
+
+##Input, Output & Pipes
+
+```bash
+$ wc < words.txt   //input
+$ ls > files.txt   //output
+$ ls >> files.txt  //add to output
+
+$ ls -l | wc       // pipe
+```
+
+
 
 
 ## Access Control
