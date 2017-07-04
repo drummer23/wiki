@@ -1,4 +1,4 @@
-#Promises
+# Promises
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 https://github.com/kriskowal/q
@@ -18,7 +18,7 @@ new Promise(executor);
 new Promise(function(resolve, reject) { /* blocking operation */ });
 ```
 
-##State
+## State
 
 A Promise is in one of these states:
 
@@ -26,7 +26,7 @@ A Promise is in one of these states:
 - fulfilled: meaning that the operation completed successfully.
 - rejected: meaning that the operation failed.
 
-##Handling
+## Handling
 
 Promises have a `then` method, which you can use to get the eventual return value (fulfillment) or thrown expextion (recection).
 
@@ -39,7 +39,7 @@ promiseMeSomething()
 
 If `promiseMeSomething` returns a promise that gets fulfilled later with a return value, the first function (the fulfillment handler) will be called with the value. However, if the `promiseMeSomething` function gets rejected later by a thrown exception, the second function (the rejection handler) will be called with the exception.
 
-##Example
+## Example
 
 ```js
 // i'll do something and than either call fulfillment or rejection handler

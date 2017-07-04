@@ -1,6 +1,6 @@
-#Mongo DB
+# Mongo DB
 
-##Terminology
+## Terminology
 
 Terms in parenthesis are the corresponding name in RDBMS
 
@@ -16,7 +16,7 @@ A document is a set of key-value pairs. Documents have dynamic schema. Dynamic s
 
 - Field (column)
 
-##Modeling
+## Modeling
 
 - Combine objects into one document if you will use them together. Otherwise separate them (but make sure there should not be need of joins).
 

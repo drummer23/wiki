@@ -1,6 +1,6 @@
-#Angular
+# Angular
 
-##Table of Contents
+## Table of Contents
 
 - [General](general.md)
 - [Directives](directives.md)

@@ -1,13 +1,13 @@
-#Strings
+# Strings
 
-##Control Characters / Escaping
+## Control Characters / Escaping
 
 ```php
 echo "\x2a";  //hex for asterix
 echo "\n";    //newline
 ```
 
-##Variable Interpolation
+## Variable Interpolation
 
 Variables can be embedded directly inside double quotes. Use **braces** for more complex statements
 
@@ -19,7 +19,7 @@ echo "Hello $who\n";
 echo "User: {$names[0]}[1977]"; //name and year
 ```
 
-##Basic Functions
+## Basic Functions
 
 ```php
 strlen()       // determine length
@@ -27,7 +27,7 @@ strtr()        // transform characters or replace substring
 someString[3]  // access individual characters like members of array
 ```
 
-##Comparing, Searching and Replacing
+## Comparing, Searching and Replacing
 
 `strpos` finds position of substring. in this example its important to use **identity operator**, to distinguish betwen found at positin zero (0) vs not found (false)
 

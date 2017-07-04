@@ -1,6 +1,5 @@
-#Concepts
+# Concepts
 
-##Table of Conctents
+## Table of Conctents
 
 - [Single Resposibilty](singleresposibility.md)
-

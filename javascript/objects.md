@@ -1,4 +1,4 @@
-#Arrays
+# Arrays
 
 In JS Arrays are actually objects too
 ```js
@@ -6,7 +6,7 @@ var cars = [‘vw’,’audi’,’bmw’];
 car.push(‘opel);   //adds element
 ```
 
-#Objects
+# Objects
 
 Objects are **collections of properties as keys and values**. A property can reference another object or a primitive
 
@@ -39,7 +39,7 @@ car.brand;
 car[“brand"];
 ```
 
-##Prototypes
+## Prototypes
 
 Every JavaScript object also has a special additional attribute: a pointer to another object. This is called the object’s prototype. If you create an object using **literals**, JavaScript automaticly adds `Object` as prototype to it.
 
@@ -69,7 +69,7 @@ Object.getPrototypeOf(apple)
 ```
 *There is a difference between the property `prototype` and `__proto__`. The property can be set to anything whereas the later is fail safe (draft - evaluate this)*
 
-##Inheritance
+## Inheritance
 
 https://github.com/MarcDiethelm/fe-lectures/blob/master/3-js-advanced/2-prototype.md
 
@@ -79,8 +79,6 @@ If you try to look up a key on an object and it is not found, JavaScript will lo
 
 Use `hasOwnProperty` to check if property is defined on this very Object
 
-##Constructor
+## Constructor
 
 todo
-
-

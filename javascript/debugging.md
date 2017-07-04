@@ -1,4 +1,4 @@
-#Debugging
+# Debugging
 
 ```js
 console.dir; //prints an object

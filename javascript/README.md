@@ -1,6 +1,6 @@
-#Javascript
+# Javascript
 
-#Table of Contents
+# Table of Contents
 
 1. [General](general.md)
 2. [Types](types.md)

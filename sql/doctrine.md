@@ -1,6 +1,6 @@
-#Doctrine
+# Doctrine
 
-##Which is the owning side of an association?
+## Which is the owning side of an association?
 
 Imagine the situation below.
 
@@ -24,7 +24,7 @@ public $members;
 ```
 http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/annotations-reference.html#annref-onetomany
 
-###Owning side of an association
+### Owning side of an association
 
 The owning side contains the inversedBy-attribute.
 The inversed side contains the mappedBy-attribute.

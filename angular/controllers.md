@@ -1,4 +1,4 @@
-#Controllers
+ # Controllers
 
 The purpose of controllers is to **expose variables and functionality to expressions and
 directives**.
@@ -17,6 +17,6 @@ Use controllers to:
 - Set up the initial state of the `$scope` object.
 - Add behavior to the `$scope` object.
 
-##Scope Inheritance
+## Scope Inheritance
 
 It is common to attach Controllers at different levels of the DOM hierarchy. Since the ng-controller directive creates a new child scope, we get a hierarchy of scopes that inherit from each other. The `$scope` that each Controller receives will **have access to properties and methods defined by Controllers higher up the hierarchy**

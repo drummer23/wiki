@@ -1,6 +1,6 @@
-#General
+# General
 
-##Methods
+## Methods
 
 There are two Kind of jQuery Methods:
 
@@ -8,11 +8,11 @@ There are two Kind of jQuery Methods:
 
 - `$` jQuery core methods. Not act on a selection (jQuery namespace)
 
-##Document Ready
+## Document Ready
 
 `$()` is the shorthand for `$(document).ready()`
 
-##Selector
+## Selector
 
 jQuery **always returns an jQuery object**, even if the selector doesn’t match anything. The object is wrapping any element(s) that match.
 
@@ -39,7 +39,7 @@ $("ul li").filter(".current") //unordered list item with class current
 ```
 more filtering: `.first()`, `.eq()` …
 
-##Getters & Setters
+## Getters & Setters
 
 ```js
 $("h1").html ( "hello world"); //setter

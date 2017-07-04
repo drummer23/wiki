@@ -1,4 +1,4 @@
-#General
+# General
 
 JavaScript is CaseSensitive.
 
@@ -8,14 +8,14 @@ Comments:
 /* comment */
 ```
 
-##Scopes
+## Scopes
 
 Javascript has 2 scopes:
 
 - Global
 - Function
 
-##Strict Mode
+## Strict Mode
 
 ```js
 ‘use strict’;
@@ -40,7 +40,7 @@ An Expression is simply an statement, which the Interpreter can evaluate to an v
 "hello", 1,23, i
 ```
 
-##Variables
+## Variables
 
 - are typeless.
 - type conversion works implicit likewise in php

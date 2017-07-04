@@ -1,6 +1,6 @@
-#Functions
+# Functions
 
-##Declaration
+## Declaration
 
 - A function is declared with the `function` keyword
 - A function always **returns** a value. It can be set with the `return` keyword. Otherwise its undefined.
@@ -13,13 +13,13 @@ function myFunc(a, b) {
 myFunc(2,6); //returns 8
 ```
 
-##Function Parameters
+## Function Parameters
 
 To check with which parameters a functions has been called, use `arguments` inside any function
 
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments
 
-##Function Expression
+## Function Expression
 
 A function Expression defines a Java-Script Function, and the Value of that Expression is this function, which can be assigned to a variable and also returned by other functions.
 
@@ -34,7 +34,7 @@ fn2()(3) // returns 9
 /* this function call needs two sets of parenthesis - first executes fn2, second       executes fn. without the parenthesis the functions would not be executed */
 ```
 
-##Anonymous Functions
+## Anonymous Functions
 
 A function can be defined without naming it
 
@@ -42,7 +42,7 @@ A function can be defined without naming it
 var fn = function() {};
 ```
 
-##IIFE
+## IIFE
 
 IFFE is a pattern for encapslulation using function scope
 

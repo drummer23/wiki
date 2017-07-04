@@ -1,10 +1,10 @@
-#Commands
+# Commands
 
-##Connect
+## Connect
 
 `mongo [host:port]`
 
-##DB
+## DB
 
 `db.stats()`
 
@@ -14,26 +14,24 @@
 
 `show dbs` empty databases will not list!
 
-##Query
+## Query
 
 `db.COLLECTION_NAME.find() {.pretty()}`
 
-##Insert
+## Insert
 
 `db.COLLECTION_NAME.insert({name: "aa"})`
 
-##Delete
+## Delete
 
 `db.COLLECTION_NAME.remove(<query>)`
 
 To remove all documents in a collection, call the remove method with an empty query document {}
 
 
-##Export/Import
+## Export/Import
 
 ```
 mongoexport --host {hostname} --port {port} --db {dbname} --collection {collection} --out {filename}
 mongoimport --host {hostname} --port {port} --db {dbname} --collection {collection} --file {filename}
 ```
-
-

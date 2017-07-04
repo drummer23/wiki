@@ -1,8 +1,8 @@
-#SQL
+# SQL
 
 -> [Doctrine specific docu](doctrine.md)
 
-##Show Information
+## Show Information
 
 Shows the SQL Statement to (re)create the Table:
 
@@ -10,7 +10,7 @@ Shows the SQL Statement to (re)create the Table:
 SHOW CREATE TABLE mytable
 ```
 
-##Contraints
+## Contraints
 
 Enables/Disable Key Contraints
 
@@ -18,7 +18,7 @@ Enables/Disable Key Contraints
 SET FOREIGN_KEY_CHECKS = {1|0};
 ```
 
-##Dumps
+## Dumps
 
 Backup
 ```sql
@@ -35,7 +35,7 @@ From another Server
  ssh [user]@[server] mysqldump [sourcedb] | mysql --database=[targetdb]
 ```
 
-##Select
+## Select
 
 ```sql
 SELECT
@@ -49,7 +49,7 @@ ORDER BY
 	p.name
 ```
 
-##Insert
+## Insert
 
 ```sql
 INSERT INTO

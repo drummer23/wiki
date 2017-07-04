@@ -1,8 +1,8 @@
-#Array
+# Array
 
 Array Consist of ```key => value```
 
-##Create
+## Create
 
 ```php
 $fruits = array();
@@ -13,7 +13,7 @@ $fruits = [];
 $fruits = ['b' => 'banana'];
 ```
 
-##Add
+## Add
 
 ```php
 $fruits['a'] = 'apple',
@@ -24,11 +24,11 @@ $fruits[] = 'orange'; *
 
 **Add Element in the middle** of use ```splice```. Use ```array_values``` to generate a new array with fresh, continues Keys.
 
-##Print
+## Print
 
 Print an array using var_dump or print_r
 
-##Array Functions
+## Array Functions
 
 Arrays are the most powerfull data management tool in PHP. Knowing when to use built-in function and when to write your own array manipulation is very important: because array are sometimes get large, **built-in functions provide significant performance over user written code**
 
@@ -44,7 +44,7 @@ array_keys()        // returns just keys
 
 ```
 
-###Passive Iteration
+### Passive Iteration
 
 ```array_walk``` can be used to perform an iteration of an array in which a user defined function is called (callback function)
 
@@ -59,14 +59,14 @@ shuffle()           // anti-sort
 
 ```
 
-###Stacks and Queues
+### Stacks and Queues
 
 Stack: Last In/First Out   - use ```array_push``` and ```array_pop```
 Queue: First In, First Out - use ```array_unshift``` and ```array_shift```
 
 push does the the same as $array[] = $value, but the later is much faster since no function is called. Is should be used unless you need to add more than one value
 
-###Compare
+### Compare
 
 ```php
 array_diff          //show diffs

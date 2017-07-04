@@ -1,4 +1,4 @@
-#REST
+# REST
 
 Rest in an Architecture Style for distributed Systems. Whereas Soap used a post message with all the Info in the body, rest on the other hand **uses given HTTP protocoll (1.1) to serve an API**.
 
@@ -13,7 +13,7 @@ Rest doesn’t have to Serve JSON!
 
 make trade-offs: pure rest is most often not worth the effort
 
-##Resources
+## Resources
 
 - Entities or collections
 - Tree structure
@@ -23,7 +23,7 @@ Examples:
 
 ```/users, users/toby, jobs/23```
 
-##Methods
+## Methods
 
 **Safe**
 
@@ -43,13 +43,13 @@ Examples:
 
 Additional Methods: PATCH (Partial Update), COPY, MOVE
 
-##Media Type
+## Media Type
 
 Media Types **assign semantic** to raw data
 
 **Form**: type/subtype      … like text/html, image/png, application/vnd.adobe.flash-movie
 
-###Media Type Headers
+### Media Type Headers
 
 **define**
 
@@ -60,7 +60,7 @@ aka Content Negotiation
 
 
 
-###XML vs JSON
+### XML vs JSON
 
 XML
 
@@ -73,11 +73,11 @@ JSON
 +Easy to consume
 +Less size (KB)
 
-##Relations
+## Relations
 
 **Hyperlinks** that Drive the workflow
 
-##Error Handling
+## Error Handling
 
 Error Status Code
 4xx Client Error

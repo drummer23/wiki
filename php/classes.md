@@ -1,6 +1,6 @@
-#Classes
+# Classes
 
-##Definiton
+## Definiton
 
 ```php
 
@@ -23,13 +23,13 @@ class car
 }
 ```
 
-##Instiation
+## Instiation
 
 ```php
 $golf = new car(‘red’);
 ```
 
-##Instance of
+## Instance of
 ```php
 if ($variable instanceof car)
 ```

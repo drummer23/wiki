@@ -1,6 +1,6 @@
-#Command Line Magic For Designers
+# Command Line Magic For Designers
 
-##Tools
+## Tools
 
 - git
 - node
@@ -9,7 +9,7 @@
 - grunt (task runner)
 - yeoman (page scaffolder)
 
-###Yeoman
+### Yeoman
 
 ```bash
 # install (incl. some requirements)

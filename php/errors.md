@@ -1,6 +1,6 @@
-#Error Handling
+# Error Handling
 
-##Error Types
+## Error Types
 
 - Compile-time errors*
 - Fatal Errors*
@@ -10,7 +10,7 @@
 
 *cannot be trapped
 
-##Configuration
+## Configuration
 
 globaly in php.ini or dynamically within script
 
@@ -21,12 +21,12 @@ log_errors=on
 ```
 Use set_error_handler to set custom error handler
 
-##Stack Traces
+## Stack Traces
 
 are presented inside->out
 first entry is where the exception happened. last entry is where the code finaly abortet
 
-##Handling
+## Handling
 
 ```php
 

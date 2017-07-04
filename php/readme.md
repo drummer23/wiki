@@ -1,6 +1,6 @@
-#PHP
+# PHP
 
-##Table of Contents
+## Table of Contents
 
 - [General](general.md)
 - [Types](types.md)

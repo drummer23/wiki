@@ -1,6 +1,6 @@
-#Git
+# Git
 
-##States
+## States
 
 - **working tree** a single checkout of one version of the project
 
@@ -10,11 +10,11 @@
 
 - **head** pointer to local branch you’re currently on
 
-##Log
+## Log
 
 ```git log —name-status```
 
-##Tagging
+## Tagging
 
 show tags
 ```
@@ -37,7 +37,7 @@ checkout tag (as a branch)
 git checkout -b version2 v2.0.0
 ```
 
-##Retome
+## Retome
 
 If you want to delete all branches that were deleted on server ("Sync" your branches with server), use:
 ```

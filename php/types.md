@@ -1,6 +1,6 @@
-#Types
+# Types
 
-##Scalars
+## Scalars
 
 Data Types with as single value. In PHP these are
 
@@ -10,5 +10,3 @@ Data Types with as single value. In PHP these are
 - string
 
 Numeric types sometimes behave unexpected when it comes to Calculation. Use Extension BCMath for arbitrary precise functions
-
-

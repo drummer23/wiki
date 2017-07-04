@@ -1,20 +1,20 @@
-#Operators
+# Operators
 
 most are binary (2 operands where operator sits in the middle)
 
-##Assignment Operators
+## Assignment Operators
 
 `=` `+=` `-=` `.=`
 
-##Arithmetic Operators
+## Arithmetic Operators
 
 `+` `-` `*` `/` `%` `++` `-`
 
-##String Operators
+## String Operators
 
 `.`
 
-##Comparison Operators
+## Comparison Operators
 
 `==` `!=` `===` `!==`
 `>` `>=` `<` `<=`
@@ -29,9 +29,8 @@ for type safe comparison use `===` and `!==`
 0 === null // evaluates to false
 ```
 
-##Logical Operators
+## Logical Operators
 
 Logical Operators check from **left to right**, and only go further if necessary. `!`  is an unary operator
 
 `!` `&&` `||` `XOR`
-

@@ -1,4 +1,4 @@
-#Concept
+# Concept
 
 AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your
 template language and lets you **extend HTML**'s syntax to express your application's
@@ -21,10 +21,10 @@ Angular frees you from the following pains:
 
 - 	**Marshaling data to and from the UI**
 
-##Data Binding
+## Data Binding
 Data-binding in Angular apps is the automatic synchronization of data between the model and view components. **The view is a projection of the model at all times**. When the model changes, the view reflects the change, and vice versa.
 
-##Dependency Injection
+## Dependency Injection
 
 Within Angular, the DI container is called the **injector**.
 To use DI, there needs to be a place where all the things that should work together are

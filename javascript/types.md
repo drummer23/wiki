@@ -1,4 +1,4 @@
-#Types
+# Types
 
 In JavaScript everything is a primitive value (aka scalar) or an object.
 
@@ -22,23 +22,23 @@ var objVar = {a : 'a', b: 'b'};
 console.log(typeof objVar); // -> object
 ```
 
-##Scalar Types
+## Scalar Types
 
 - Strings
   - use ‘ or “ or a combination to embed strings in string
   - use \ to escape
   - use + to concatenate
 - Numbers
-  - Math Operations outside bounds or division by 0 returns infinity or nun 
+  - Math Operations outside bounds or division by 0 returns infinity or nun
 - Bools
 - Undefined/Null
  - not initialised variables or non-existent properties return undefined (aka typeof undefined)
 
-##Objects
+## Objects
 
 [Chapter Objects](objects.md)
 
-##Typeof
+## Typeof
 
 Use `typeof` to check for type
 
@@ -46,7 +46,7 @@ Use `typeof` to check for type
 if (‘string’ !== typeof paramString)
 ```
 
-##False
+## False
 
 The Following 7 values are the only one converted to false in Javasript
 
