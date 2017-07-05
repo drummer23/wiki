@@ -102,3 +102,11 @@ chmod -w file.txt #removes write from all
 ```
 
 **u**ser, **g**roup, **o**thers / **r**ead, **w**rite, **e**xecute
+
+## change owner/group
+
+```bash
+$ chown smith file1 file2 dir1
+$ chgrp smith file3
+
+```
