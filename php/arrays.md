@@ -48,7 +48,7 @@ array_keys()        // returns just keys
 
 ```array_walk``` can be used to perform an iteration of an array in which a user defined function is called (callback function)
 
-###Sorting
+### Sorting
 
 ```php
 sort()/asort        // sort array / keep keys
