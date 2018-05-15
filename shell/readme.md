@@ -12,7 +12,7 @@ Search manpages by Keyword
 $ man -k keyword
 ```
 
-##Wildcards
+## Wildcards
 
 ```bash
 $ ls dir/*conf  // null to many characters
@@ -47,7 +47,7 @@ $ echo $MYVAR
 
 ```
 
-##Path
+## Path
 
 modify Path variable **temporary**. modify userprofile to change permanent
 ```bash
@@ -56,7 +56,7 @@ $ echo $PATH
 /usr/local/bin:/bin:/usr/bin:/home/smith/bin:/usr/sbin”
 ```
 
-##Alias
+## Alias
 
 define temporary alias
 ```bash
@@ -67,7 +67,7 @@ $ ll
 $ alias
 ```
 
-##Input, Output & Pipes
+## Input, Output & Pipes
 
 ```bash
 $ wc < words.txt   //input
