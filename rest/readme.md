@@ -21,7 +21,9 @@ make trade-offs: pure rest is most often not worth the effort
 
 Examples:
 
-```/users, users/toby, jobs/23```
+```
+/users, users/toby, jobs/23
+```
 
 ## Methods
 

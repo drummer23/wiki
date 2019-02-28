@@ -20,7 +20,7 @@ $fruits['a'] = 'apple',
 $fruits[] = 'orange'; *
 ```
 
-*When an element is added to an array without key, PHP assigns a numeric one that is plus one to the greatest numeric existing key
+*When an element is added to an array without key, PHP assigns a numeric one that is plus one to the greatest numeric existing key*
 
 **Add Element in the middle** of use ```splice```. Use ```array_values``` to generate a new array with fresh, continues Keys.
 

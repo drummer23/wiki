@@ -2,13 +2,13 @@
 
 ## Error Types
 
-- Compile-time errors*
-- Fatal Errors*
+- Compile-time errors 1
+- Fatal Errors 1
 - Recoverable errors
 - Warnings
 - Notices
 
-*cannot be trapped
+*1 cannot be trapped*
 
 ## Configuration
 

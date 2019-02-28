@@ -101,7 +101,7 @@ chmod u+x file.txt #adds execute for user
 chmod -w file.txt #removes write from all
 ```
 
-**u**ser, **g**roup, **o**thers / **r**ead, **w**rite, **e**xecute
+**u** ser, **g** roup, **o** thers / **r** ead, **w** rite, **e** xecute
 
 ## change owner/group
 

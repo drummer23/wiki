@@ -22,7 +22,7 @@ also called Keywords. Some of them look like functions, but there not!
 - die()*
 - ………
 
-*The output of die is returned to the process that called the script
+*The output of die is returned to the process that called the script*
 
 ## Control Structures
 
