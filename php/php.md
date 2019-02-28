@@ -1,11 +1,11 @@
 - [ General ](#general) 
-- [ Types ] (#types)
-- [ Operators ] (#operators)
-- [ Functions ] (#functions)
-- [ Arrays ] (#arrays)
-- [ String ] (#strings)
-- [ Classes ] (#classes)
-- [ Errors ] (#error)
+- [ Types ](#types)
+- [ Operators ](#operators)
+- [ Functions ](#functions)
+- [ Arrays ](#arrays)
+- [ String ](#strings)
+- [ Classes ](#classes)
+- [ Errors ](#error)
 
 <a name="general"></a>
 # General
