@@ -126,7 +126,7 @@ console.log(typeof objVar); // -> object
 
 ## Objects
 
-[see Chapter Objects]((#objects))
+[see Chapter Objects](#objects)
 
 ## Typeof
 
