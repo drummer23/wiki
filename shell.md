@@ -84,11 +84,11 @@ $ ls -l | wc       // pipe
 
 ### Display diagram
 
-![](chmod.jpg)
+![](resources/shell_chmod.jpg)
 
 ### chmod numeric format
 
-![](acl.png)
+![](resources/shell_acl.png)
 
 ```bash
 chmod 640 {filename}
