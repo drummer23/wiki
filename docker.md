@@ -20,5 +20,22 @@ docker ps      # show running processes
 docker-compose build
 docker-compose up [--build] [--detach]
 docker-compose stop
-docker-compose run {containername} {bin/console cache:clear} 
+docker-compose run {containername} {bin/console cache:clear}
+```
+
+```bash
+#stop all containers:
+docker stop $(docker ps -a -q)
+
+#stop all containers by force
+docker kill $(docker ps -q)
+
+#remove all containers
+docker rm $(docker ps -a -q)
+
+#remove all docker images
+docker rmi $(docker images -q)
+
+#purge the rest
+docker system prune --all --force --volumes
 ```
