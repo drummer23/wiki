@@ -14,6 +14,7 @@ Compose is a tool for defining and running multi-container Docker applications. 
 docker build
 docker run
 docker ps      # show running processes
+docker system prune #clean up resources, networks etc
 ```
 
 ```bash
